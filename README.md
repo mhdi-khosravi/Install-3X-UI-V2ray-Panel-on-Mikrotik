@@ -110,7 +110,7 @@ To configure networking for containers, you need to add a Virtual Ethernet Inter
    Use the following command to add the container and configure it to start on boot:
 
    ```bash
-   /container/add interface=veth1 mounts=cert,x-ui workdir=/app start-on-boot=yes remote-image=metaligh/3x-ui
+   /container/add interface=veth1 mounts=cert,x-ui workdir=/app start-on-boot=yes remote-image=ghcr.io/mhsanaei/3x-ui:latest
    ```
 
 ---
