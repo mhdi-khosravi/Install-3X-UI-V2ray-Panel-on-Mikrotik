@@ -32,8 +32,6 @@
 /container/config/set ram-high=0 registry-url=https://ghcr.io tmpdir=pull
 ```
 
-(اگر سرور شما در ایران است از [docker.arvancloud.ir](https://docker.arvancloud.ir) استفاده کنید)
-
 ## 6. تنظیمات شبکه
 
 1. ایجاد و تنظیمات veth:
