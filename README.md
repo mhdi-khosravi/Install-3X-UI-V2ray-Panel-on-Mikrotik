@@ -2,13 +2,13 @@
 
 
 
-# MikroTik 7.5+ Container Setup and Configuration Guide
+# MikroTik 7.12+ Container Setup and Configuration Guide
 
-This guide provides detailed steps for setting up and configuring containers on a MikroTik router with version 7.5+ and installing the `x-ui` container. Follow the steps to ensure your containers are properly installed, configured, and accessible.
+This guide provides detailed steps for setting up and configuring containers on a MikroTik router with version 7.12+ and installing the `x-ui` container. Follow the steps to ensure your containers are properly installed, configured, and accessible.
 
 ## Prerequisites
 
-- MikroTik Router with version 7.5+.
+- MikroTik Router with version 7.12+.
 - Access to MikroTik's web interface or terminal.
 - A stable internet connection to download required packages.
   
@@ -16,8 +16,8 @@ This guide provides detailed steps for setting up and configuring containers on 
 
 ## Steps to Install and Configure the Container Package
 
-### 1. **Update MikroTik RouterOS to Version 7.5+**
-   - Make sure your MikroTik router is updated to version 7.5 or higher.
+### 1. **Update MikroTik RouterOS to Version 7.12+**
+   - Make sure your MikroTik router is updated to version 7.12 or higher.
    - Visit MikroTik’s official website to download the latest firmware if needed.
 
 ### 2. **Download the Container Package**
