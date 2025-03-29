@@ -48,7 +48,7 @@ This guide provides detailed steps for setting up and configuring containers on 
    Run the following configuration to enable container functionality:
 
    ```bash
-   /container/config/set ram-high=0 registry-url=https://registry-1.docker.io tmpdir=pull
+   /container/config/set ram-high=0 registry-url=https://ghcr.io tmpdir=pull
    ```
 
    **Note:**  
@@ -110,7 +110,7 @@ To configure networking for containers, you need to add a Virtual Ethernet Inter
    Use the following command to add the container and configure it to start on boot:
 
    ```bash
-   /container/add interface=veth1 mounts=cert,x-ui workdir=/app start-on-boot=yes remote-image=ghcr.io/mhsanaei/3x-ui:latest
+   /container/add interface=veth1 mounts=cert,x-ui workdir=/app start-on-boot=yes remote-image=mhsanaei/3x-ui:latest
    ```
 
 ---
