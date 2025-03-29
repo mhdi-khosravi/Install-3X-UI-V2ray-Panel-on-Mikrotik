@@ -1,3 +1,6 @@
+برای آموزش فارسی کلیک کنید [اینجا](farsi.md).
+
+
 
 # MikroTik 7.5+ Container Setup and Configuration Guide
 
