@@ -29,7 +29,7 @@
 در ادامه دستورالعمل‌هایی برای تنظیمات پیکربندی Container را انجام دهید:
 
 ```bash
-/container/config/set ram-high=0 registry-url=https://registry-1.docker.io tmpdir=pull
+/container/config/set ram-high=0 registry-url=https://ghcr.io tmpdir=pull
 ```
 
 (اگر سرور شما در ایران است از [docker.arvancloud.ir](https://docker.arvancloud.ir) استفاده کنید)
@@ -64,7 +64,7 @@
 در این بخش می‌توانید کانتینر جدید را با استفاده از دستور زیر راه‌اندازی کنید:
 
 ```bash
-/container/add interface=veth1 mounts=cert,x-ui workdir=/app start-on-boot=yes remote-image=ghcr.io/mhsanaei/3x-ui:latest
+/container/add interface=veth1 mounts=cert,x-ui workdir=/app start-on-boot=yes remote-image=mhsanaei/3x-ui:latest
 ```
 
 ## 9. تنظیمات NAT فایروال
