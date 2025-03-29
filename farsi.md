@@ -64,7 +64,7 @@
 در این بخش می‌توانید کانتینر جدید را با استفاده از دستور زیر راه‌اندازی کنید:
 
 ```bash
-/container/add interface=veth1 mounts=cert,x-ui workdir=/app start-on-boot=yes remote-image=metaligh/3x-ui
+/container/add interface=veth1 mounts=cert,x-ui workdir=/app start-on-boot=yes remote-image=ghcr.io/mhsanaei/3x-ui:latest
 ```
 
 ## 9. تنظیمات NAT فایروال
