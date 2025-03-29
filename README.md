@@ -51,13 +51,6 @@ This guide provides detailed steps for setting up and configuring containers on 
    /container/config/set ram-high=0 registry-url=https://ghcr.io tmpdir=pull
    ```
 
-   **Note:**  
-   If your MikroTik router is located in Iran, use the following registry URL:
-
-   ```bash
-   /container/config/set registry-url=https://docker.arvancloud.ir
-   ```
-
 ---
 
 ## Setting Up Networking for Containers
