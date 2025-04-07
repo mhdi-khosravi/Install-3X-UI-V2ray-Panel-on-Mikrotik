@@ -141,3 +141,8 @@ You have successfully set up containers on your MikroTik router and configured t
 ## Important Note
 
 - **Always double-check the port forwarding rules in `/ip/firewall/nat`** to ensure the correct IP and port are forwarded. Adjust the `dst-address` and `to-addresses` if needed based on your router and network configuration.
+
+---
+## How to run?
+
+- Open panel with `$IP:2053` (your server IP) with user and password `admin`.
